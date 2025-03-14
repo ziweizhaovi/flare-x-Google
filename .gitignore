@@ -12,3 +12,7 @@ wheels/
 .ruff_cache
 .vscode
 .DS_Store
+
+# Add this line to your .gitignore
+credentials/*.json
+node_modules

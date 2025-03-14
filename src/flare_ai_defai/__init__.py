@@ -1,5 +1,6 @@
-from flare_ai_defai.ai import GeminiProvider
-from flare_ai_defai.api import ChatRouter, router
+# Empty file to make the directory a Python package
+
+from .api import ChatRouter, router
 from flare_ai_defai.attestation import Vtpm
 from flare_ai_defai.blockchain import FlareProvider
 from flare_ai_defai.prompts import (
@@ -10,7 +11,6 @@ from flare_ai_defai.prompts import (
 __all__ = [
     "ChatRouter",
     "FlareProvider",
-    "GeminiProvider",
     "PromptService",
     "SemanticRouterResponse",
     "Vtpm",
